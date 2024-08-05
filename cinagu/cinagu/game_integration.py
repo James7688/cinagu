@@ -14,19 +14,19 @@ def integrate_with_game(game_engine, detection_functions):
         if detection_functions['aimbot'](player_data['mouse_movements']):
             print("Aimbot detected!")
         if detection_functions['wallhack'](player_data['position'], player_data['visible_players'],
-                                           player_data['game_map']):
+                                           player_data['game_map']):ALL MAPS
             print("Wallhack detected!")
-        if detection_functions['script'](player_data['actions']):
+        if detection_functions['script'](player_data['actions']):AUTOFIRE,AUTOHEAL,AUTORUN
             print("Script detected!")
 
     # Assuming game_engine has an update loop where we can call our cheat detection
     def update():
         for player in game_engine.get_players():
-            player_data = {
+            player_data = {AUTOFIRE
                 'mouse_movements': player.get_mouse_movements(),
                 'position': player.get_position(),
                 'visible_players': player.get_visible_players(),
-                'game_map': game_engine.get_map(),
+                'game_map': game_engine.get_map()BERMUDA NEXTERA KALAHARI,
                 'actions': player.get_actions()
             }
             check_for_cheats(player_data)
