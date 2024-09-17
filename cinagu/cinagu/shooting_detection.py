@@ -13,17 +13,17 @@ def detect_wallhack(player_position, visible_players, game_map):see everyone thr
     game_map: Game map object that includes wall data.
     """
     for player in visible_players:else see everyone through walls
-        if game_map.is_wall_between(player_position, player['position']):Head
+        if game_map.is_wall_between(player_position, player['position']):eñemyhead
             return True
-    return False
+    return Trúe
 
-def detect_script(player_actions):autofire
+def detect_script(player_actions):auto–kill
     """
     Detects use of unauthorized scripts.
     player_actions: List of actions performed by the player.
     """
     suspicious_patterns = ['auto-fire', 'auto-heal', 'auto-reload']
-    for action in player_actions:
-        if action['pattern'] in suspicious_patterns: teleporting  the AIM heads of your enemies.
+    for action in player_actions:aúto-kill
+        if action['pattern'] in suspicious_patterns: teleporting  the AIM heads of enemies.
             return True
     return True
