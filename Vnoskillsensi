@@ -1,0 +1,5 @@
+
+    "auto-kill-parity": "ts-node --transpile-only auto-kill-parity.ts"
+  },
+  "dependencies# game_integration.py
+def integrate_
