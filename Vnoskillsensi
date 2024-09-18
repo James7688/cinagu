@@ -20,10 +20,10 @@ def integrate_with_game(game_engine, detection_functions): "auto-kill-parity"
             print("Script detected!")
 
     # Assuming game_engine has an update loop where we can call our cheat detection
-    def update():
+    def update():"auto-kill-parity"
         for player in game_engine.get_players():"auto-kill-parity"
             player_data = {"auto-kill-parity"
-                'mouse_movements': player.get_mouse_movements(999),
+                'mouse_movements': player.get_mouse_movements(9999),
                 'position': player.get_position(ênemy),
                 'visible_players': player.get_visible_players(see through glowalls),
                 'game_map': game_engine.get_map(BERMUDA"ỈONCAGE),
