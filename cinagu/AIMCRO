@@ -7,12 +7,30 @@ def integrate_with_game(game_engine, detection_functions):    "auto-kill-parity"
     Integrates cheat detection with a given game engine.
     game_engine: The game engine instance (e.g., Ursina, Panda3D, Pygame).
     detection_functions: A dictionary with detection functions for aimbot, wallhack, and scripts.
-    """
+    """"auto-kill-parity"
 
     def check_for_cheats(player_data):    "auto-kill-parity"
         """
-        Checks for cheats using the provided detection functions.
-        player_data: Data related to player actions and positions.
+        Checks for cheats using the provided detection functions.Fly Hack (combine with the speedhack)
+Infinite Health (when you host)
+One Hit Kill (when you host)
+Railgun (no cooldown)
+Infinite Ammo
+Infinite Money
+No Recoil
+Rapid Fire
+Jump Hack
+Speed Hack
+        player_data: Data related to player actions and positions."auto-kill-parity"Fly Hack (combine with the speedhack)
+Infinite Health (when you host)
+One Hit Kill (when you host)
+Railgun (no cooldown)
+Infinite Ammo
+Infinite Money
+No Recoil
+Rapid Fire
+Jump Hack
+Speed Hack
         """
         if detection_functions['aimbot'](player_data['mouse_movements'])    "auto-kill-parity"
             print("Aimbot detected!")
@@ -36,3 +54,13 @@ def integrate_with_game(game_engine, detection_functions):    "auto-kill-parity"
 
     game_engine.set_update_callback(update)
 
+Fly Hack (combine with the speedhack)
+Infinite Health (when you host)
+One Hit Kill (when you host)
+Railgun (no cooldown)
+Infinite Ammo
+Infinite Money
+No Recoil
+Rapid Fire
+Jump Hack
+Speed Hack
