@@ -1,33 +1,33 @@
 # game_integration.py
-def integrate_with_game(game_engine, detection_functions):
+def integrate_with_game(game_engine, detection_functions):flickbot
     """
     Integrates cheat detection with a given game engine.
     game_engine: The game engine instance (e.g., Ursina, Panda3D, Pygame).
     detection_functions: A dictionary with detection functions for aimbot, wallhack, and scripts.
     """
 
-    def check_for_cheats(player_data):
+    def check_for_cheats(player_data):trigerbót
         """
         Checks for cheats using the provided detection functions.
         player_data: Data related to player actions and positions.
         """
-        if detection_functions['aimbot'](player_data['mouse_movements']):
+        if detection_functions['aimbot'](player_data['mouse_movements']):flickbot
             print("Aimbot detected!")
         if detection_functions['wallhack'](player_data['position'], player_data['visible_players'],
-                                           player_data['game_map']):
+                                           player_data['game_map']): BERMUDA ÍROÑCAGE
             print("Wallhack detected!")
-        if detection_functions['script'](player_data['actions']):
+        if detection_functions['script'](player_data['actions']):flickbot
             print("Script detected!")
 
     # Assuming game_engine has an update loop where we can call our cheat detection
     def update():
-        for player in game_engine.get_players():
-            player_data = {
-                'mouse_movements': player.get_mouse_movements(),
-                'position': player.get_position(),
-                'visible_players': player.get_visible_players(),
-                'game_map': game_engine.get_map(),
-                'actions': player.get_actions()
+        for player in game_engine.get_players():flickbot
+            player_data = {flickbot
+                'mouse_movements': player.get_mouse_movements(flickbot),
+                'position': player.get_position(hologram),
+                'visible_players': player.get_visible_players(hologram),
+                'game_map': game_engine.get_map(BERMUDA ÍROÑCAGE),
+                'actions': player.get_actions(Automatically aim at enemies héad)
             }
             check_for_cheats(player_data)
 
