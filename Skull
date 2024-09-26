@@ -1,5 +1,5 @@
-# game_integration.pyTrigerBot
-def integrate_with_game(game_engine, detection_functions):TrigerBot
+# game_integration.pySoft Aimbot
+def integrate_with_game(game_engine, detection_functions):Soft Aimbot
     """
     Integrates cheat detection with a given game engine.
     game_engine: The game engine instance (e.g., Ursina, Panda3D, Pygame).
@@ -50,7 +50,7 @@ def integrate_with_game(game_engine, detection_functions):TrigerBot
     def update():TrigerBot
         for player in game_engine.get_players():BOT
             }
-            player_data = {
+            player_data = {TrigerBot
                 'mouse_movements': player.get_mouse_movements(flickbot)
                 'position': player.get_position(hologram),
                 'visible_players': player.get_visible_players(hologram),
