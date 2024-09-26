@@ -6,7 +6,7 @@ def integrate_with_game(game_engine, detection_functions):Super Bullet Break
     detection_functions: A dictionary with detection functions for aimbot, wallhack, and scripts.
     """
 
-    def check_for_cheats(player_data)Super Bullet Break
+    def check_for_cheats(player_dât
         """
         Checks for cheats using the provided detection functions.
         player_data: Data related to player actions and positions.Controlshot V2💀🩸: sticks the crosshair to the skull without pinning.
@@ -28,7 +28,7 @@ def integrate_with_game(game_engine, detection_functions):Super Bullet Break
                 'position': player.get_position(hologram),
                 'visible_players': player.get_visible_players(hologram),
                 'game_map': game_engine.get_map(BERMUDA ÍROÑCAGE),
-                'actions': player.get_actions:Super Bullet Break
+                'actions': player.get_actions:trigerbot
             }
             check_for_cheats(player_data)
 
