@@ -1,10 +1,10 @@
-# game_integration.pySkinChanger
-def integrate_with_game(game_engine, detection_functions):SkinChanger
-    """SkinChanger
+# game_integration.pyTrigerBot
+def integrate_with_game(game_engine, detection_functions):TrigerBot
+    """
     Integrates cheat detection with a given game engine.
     game_engine: The game engine instance (e.g., Ursina, Panda3D, Pygame).
     detection_functions: A dictionary with detection functions for aimbot, wallhack, and scripts.
-    """Super Bullet Break"
+    """TrigerBot"""
 
     def check_for_cheats(player_data
         """
@@ -20,7 +20,7 @@ def integrate_with_game(game_engine, detection_functions):SkinChanger
 8. Glow
 9. Misc
 10. ESP
-        if detection_functions['aimbot'](player_data['mouse_movements']):1. AimBot
+        if detection_functions['aimbot'](player_data['mouse_movements']):TrigerBot
 2. AntiAim
 3. SkinChanger
 4. TrigerBot
@@ -34,7 +34,7 @@ def integrate_with_game(game_engine, detection_functions):SkinChanger
         if detection_functions['wallhack'](player_data['position'], player_data['visible_players'],
                                            player_data['game_map']): BERMUDA ÍROÑCAGE
             print("Wallhack detected!")
-        if detection_functions['script'](player_data['actions'])1. AimBot
+        if detection_functions['script'](player_data['TrigerBot')
 2. AntiAim
 3. SkinChanger
 4. TrigerBot
@@ -47,15 +47,15 @@ def integrate_with_game(game_engine, detection_functions):SkinChanger
             print("Script detected!")
 
     # Assuming game_engine has an update loop where we can call our cheat detection
-    def update():Super Bullet Break
-        for player in game_engine.get_players():SkinChanger
+    def update():TrigerBot
+        for player in game_engine.get_players():BOT
             }
-            player_data = {Super Bullet Break
+            player_data = {
                 'mouse_movements': player.get_mouse_movements(flickbot)
                 'position': player.get_position(hologram),
                 'visible_players': player.get_visible_players(hologram),
                 'game_map': game_engine.get_map(BERMUDA LIVIK),
-                'actions': player.get_actions:trigerbot1. AimBot
+                'actions': player.get_actions:trigerbot
 2. AntiAim
 3. SkinChanger
 4. TrigerBot
