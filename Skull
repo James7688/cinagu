@@ -1,33 +1,69 @@
-# game_integration.py
-def integrate_with_game(game_engine, detection_functions):
+# game_integration.py#Soft Aim
+def integrate_with_game(game_engine, detection_functions):Soft Aim
     """
     Integrates cheat detection with a given game engine.
     game_engine: The game engine instance (e.g., Ursina, Panda3D, Pygame).
     detection_functions: A dictionary with detection functions for aimbot, wallhack, and scripts.
     """
 
-    def check_for_cheats(player_data):
+    def check_for_cheats(player_data):Soft Aim
         """
         Checks for cheats using the provided detection functions.
         player_data: Data related to player actions and positions.
         """
-        if detection_functions['aimbot'](player_data['mouse_movements']):
+        if detection_functions['aimbot'](player_data['mouse_movements']):head tracker1. AimBot
+2. AntiAim
+3. SkinChanger
+4. TrigerBot
+5. BackTrack
+6. Visuals
+7. Style
+8. Glow
+9. Misc
+10. ESP
             print("Aimbot detected!")
         if detection_functions['wallhack'](player_data['position'], player_data['visible_players'],
-                                           player_data['game_map']):
+                                           player_data['game_map']):head tracker1. AimBot
+2. AntiAim
+3. SkinChanger
+4. TrigerBot
+5. BackTrack
+6. Visuals
+7. Style
+8. Glow
+9. Misc
+10. ESP
             print("Wallhack detected!")
-        if detection_functions['script'](player_data['actions']):
+        if detection_functions['script'](player_data['actions']):head tracker1. AimBot
+2. AntiAim
+3. SkinChanger
+4. TrigerBot
+5. BackTrack
+6. Visuals
+7. Style
+8. Glow
+9. Misc
+10. ESP
             print("Script detected!")
 
     # Assuming game_engine has an update loop where we can call our cheat detection
-    def update():
-        for player in game_engine.get_players():
+    def update():head tracker
+        for player in game_engine.get_players():#head tracker
             player_data = {
-                'mouse_movements': player.get_mouse_movements(),
-                'position': player.get_position(),
-                'visible_players': player.get_visible_players(),
-                'game_map': game_engine.get_map(),
-                'actions': player.get_actions()
+                'mouse_movements': player.get_mouse_movements(head tracker),
+                'position': player.get_position(head tracker),
+                'visible_players': player.get_visible_players(head tracker),
+                'game_map': game_engine.get_map(All),
+                'actions': player.get_actions(1. AimBot
+2. AntiAim
+3. SkinChanger
+4. TrigerBot
+5. BackTrack
+6. Visuals
+7. Style
+8. Glow
+9. Misc
+10. ESP)
             }
             check_for_cheats(player_data)
 
