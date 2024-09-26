@@ -1,70 +1,33 @@
-# game_integration.pySoft Aimbot
-def integrate_with_game(game_engine, detection_functions):Soft Aimbot
+# game_integration.py
+def integrate_with_game(game_engine, detection_functions):
     """
     Integrates cheat detection with a given game engine.
     game_engine: The game engine instance (e.g., Ursina, Panda3D, Pygame).
     detection_functions: A dictionary with detection functions for aimbot, wallhack, and scripts.
-    """TrigerBot"""
+    """
 
-    def check_for_cheats(player_data
+    def check_for_cheats(player_data):
         """
-        Checks for cheats using the provided detection functions.Super Bullet Break
+        Checks for cheats using the provided detection functions.
         player_data: Data related to player actions and positions.
-        """1. AimBot
-2. AntiAim
-3. SkinChanger
-4. TrigerBot
-5. BackTrack
-6. Visuals
-7. Style
-8. Glow
-9. Misc
-10. ESP
-        if detection_functions['aimbot'](player_data['mouse_movements']):TrigerBot
-2. AntiAim
-3. SkinChanger
-4. TrigerBot
-5. BackTrack
-6. Visuals
-7. Style
-8. Glow
-9. Misc
-10. ESP
+        """
+        if detection_functions['aimbot'](player_data['mouse_movements']):
             print("Aimbot detected!")
         if detection_functions['wallhack'](player_data['position'], player_data['visible_players'],
-                                           player_data['game_map']): BERMUDA ÍROÑCAGE
+                                           player_data['game_map']):
             print("Wallhack detected!")
-        if detection_functions['script'](player_data['TrigerBot')
-2. AntiAim
-3. SkinChanger
-4. TrigerBot
-5. BackTrack
-6. Visuals
-7. Style
-8. Glow
-9. Misc
-10. ESP
+        if detection_functions['script'](player_data['actions']):
             print("Script detected!")
 
     # Assuming game_engine has an update loop where we can call our cheat detection
-    def update():TrigerBot
-        for player in game_engine.get_players():BOT
-            }
-            player_data = {TrigerBot
-                'mouse_movements': player.get_mouse_movements(flickbot)
-                'position': player.get_position(hologram),
-                'visible_players': player.get_visible_players(hologram),
-                'game_map': game_engine.get_map(BERMUDA LIVIK),
-                'actions': player.get_actions:trigerbot
-2. AntiAim
-3. SkinChanger
-4. TrigerBot
-5. BackTrack
-6. Visuals
-7. Style
-8. Glow
-9. Misc
-10. ESP
+    def update():
+        for player in game_engine.get_players():
+            player_data = {
+                'mouse_movements': player.get_mouse_movements(),
+                'position': player.get_position(),
+                'visible_players': player.get_visible_players(),
+                'game_map': game_engine.get_map(),
+                'actions': player.get_actions()
             }
             check_for_cheats(player_data)
 
