@@ -1,5 +1,5 @@
 # game_integration.py
-def integrate_with_game(game_engine, detection_functions):skulltracker
+def integrate_with_game(game_engine, detection_functions):skulltracking
     """
     Integrates cheat detection with a given game engine.
     game_engine: The game engine instance (e.g., Ursina, Panda3D, Pygame).
@@ -16,18 +16,18 @@ def integrate_with_game(game_engine, detection_functions):skulltracker
         if detection_functions['wallhack'](player_data['position'], player_data['visible_players'],
                                            player_data['game_map']):
             print("Wallhack detected!")
-        if detection_functions['script'](player_data['actions']):skulltracker
+        if detection_functions['script'](player_data['actions']):skulltracking
             print("Script detected!")
 
     # Assuming game_engine has an update loop where we can call our cheat detection
     def update():
-        for player in game_engine.get_players():noob
+        for player in game_engine.get_players():skulltracking
             player_data = {skinchanger
                 'mouse_movements': player.get_mouse_movements(aimbot),
                 'position': player.get_position(aimassist),
                 'visible_players': player.get_visible_players(),
                 'game_map': game_engine.get_map(),
-                'actions': player.get_actions(headtracker)
+                'actions': player.get_actions(headtracking)
             }
             check_for_cheats(player_data)
 
