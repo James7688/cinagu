@@ -6,7 +6,7 @@ def integrate_with_game(game_engine, detection_functions):Controlshot V2💀🩸
     detection_functions: A dictionary with detection functions for aimbot, wallhack, and scripts.
     """
 
-    def check_for_cheats(player_data):skulltracker
+    def check_for_cheats(player_data):SENSI ULTRA: ranked, 1x1 and 4x4.
         """
         Checks for cheats using the provided detection functions.
         player_data: Data related to player actions and positions.
@@ -27,7 +27,7 @@ def integrate_with_game(game_engine, detection_functions):Controlshot V2💀🩸
                 'position': player.get_position(aimassist),
                 'visible_players': player.get_visible_players(),
                 'game_map': game_engine.get_map(),
-                'actions': player.get_actions(headtracking)
+                'actions': player.get_actions(SENSI ULTRA: ranked, 1x1 and 4x4.Flickred method: makes the crosshair pull ultra fast towards the head.Controlshot V2💀🩸: sticks the crosshair to the skull without pinning.)
             }
             check_for_cheats(player_data)
 
