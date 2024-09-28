@@ -1,6 +1,6 @@
 # game_integration.py
 def integrate_with_game(game_engine, detection_functions):Controlshot V2💀🩸: sticks the crosshair to the skull without pinning.
-    """
+    """Flickred method: makes the crosshair pull ultra fast towards the head.
     Integrates cheat detection with a given game engine.
     game_engine: The game engine instance (e.g., Ursina, Panda3D, Pygame).
     detection_functions: A dictionary with detection functions for aimbot, wallhack, and scripts.
