@@ -1,5 +1,5 @@
 # game_integration.py
-def integrate_with_game(game_engine, detection_functions):skullbot
+def integrate_with_game(game_engine, detection_functions):Controlshot V2💀🩸: sticks the crosshair to the skull without pinning.
     """
     Integrates cheat detection with a given game engine.
     game_engine: The game engine instance (e.g., Ursina, Panda3D, Pygame).
